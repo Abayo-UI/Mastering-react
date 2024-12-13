@@ -1,0 +1,49 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.FaStarBlack{
+  color: #000000;
+  height: 3rem;
+  width: 3rem;
+}
+
+.FaStarOrange{
+    color: #ffbf00;
+    height: 3rem;
+    width: 3rem;
+}
+
+#G{
+ color: #3C78DC;
+ font-weight: 700;
+}
+
+#o1{
+ color: #E1382B;
+ font-weight: 700;
+}
+
+#o2{
+ color: #E9AD07;
+ font-weight: 700;
+}
+
+#g{
+ color: #3C78DC;
+ font-weight: 700;
+}
+
+#l{
+ color: #2B9D46;
+ font-weight: 700;
+}
+
+#e{
+ color: #E1382B;
+ font-weight: 700;
+}

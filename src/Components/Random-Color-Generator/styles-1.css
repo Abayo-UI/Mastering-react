@@ -1,0 +1,16 @@
+.cgcontainer{
+    height: 100vh;
+    margin-top: 82vh;
+}
+
+.buttons{
+    height: auto;
+}
+
+.display-6{
+    font-weight: 500;
+}
+
+.display-3{
+    font-weight: 600;
+}
