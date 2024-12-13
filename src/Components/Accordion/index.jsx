@@ -55,7 +55,7 @@ export default function Accordion(){
     return(
         <body class="d-flex flex-column justify-content-start align-items-center">
             <button style={buttonStyles} onClick={ () => setMultiSelection(!multiselection)}> Enable MultiSelection </button>
-          <div class="mt-3 col-lg-4 col-11">
+          <div class="mt-3 col-lg-8 col-11">
             
             { data.map( dataItem =>
                 <div>
