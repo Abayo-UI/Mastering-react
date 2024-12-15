@@ -51,7 +51,7 @@ export default function ImageSlider({url, limit, page}){
             <h6 class="text-center">This project, fetches the below images from an API</h6>
             <div>
             
-               {images.map( (item, key) => (
+               { images.length > 0 && images.map( (item, key) => (
                  currentImage === key && (
                 <div>
                 <p id="loading">Loading | Please wait...</p>
