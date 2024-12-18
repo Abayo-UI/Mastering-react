@@ -5,3 +5,20 @@
     justify-content: start;
     align-items: center;
 }
+
+.Topic{
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.active{
+    display: block;
+}
+
+.inactive{
+    display: none;
+}
+
+input{
+    background-color: #E8F0FE;
+}
