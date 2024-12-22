@@ -1,5 +1,6 @@
 import Accordion  from "./Components/Accordion";
 import ImageSlider from "./Components/Image-Slider";
+import LightDarkMode from "./Components/Light-dark-mode";
 import LoadMoreButton from "./Components/Load-More-Button";
 import QrCodeGenerator from "./Components/Qr-Code-Generator";
 import Colorgenerator from "./Components/Random-Color-Generator";
@@ -11,13 +12,13 @@ function App() {
   return (
     <div>
       <QrCodeGenerator/>
+      <LightDarkMode/>
       <Accordion/>
+      <StarRating/>
       <Treeview menus={data}/>
       <Colorgenerator/>
-      <StarRating/>
-      <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
       <LoadMoreButton url="https://dummyjson.com/products"/>
-      
+      <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
     </div>
   );
 }
