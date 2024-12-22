@@ -1,0 +1,39 @@
+:root{
+    --light-background-theme: #fff;
+    --light-color-theme: #000;
+    --light-button-bg-color-theme: #000;
+    --light-button-text-color-theme: #fff;
+
+    --dark-background-theme: #000;
+    --dark-color-theme: #fff;
+    --dark-button-bg-color-theme: #fff;
+    --dark-button-text-color-theme: #000;
+}
+
+.light-dark-container{
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-theme = light]{
+  background-color: var(--light-background-theme);
+  color: var(--light-color-theme);
+}
+
+[data-theme = light] > button{
+  background-color: var(--light-button-bg-color-theme);
+  color: var(--light-button-text-color-theme);
+}
+
+[data-theme = dark]{
+    background-color: var(--dark-background-theme);
+    color: var(--dark-color-theme)
+  }
+  
+[data-theme = dark] > button{
+    background-color: var(--dark-button-bg-color-theme);
+    color: var(--dark-button-text-color-theme)
+}
