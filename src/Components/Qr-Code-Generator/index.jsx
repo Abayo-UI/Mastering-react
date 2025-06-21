@@ -2,7 +2,7 @@ import "./styles-6.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import QRCode from "react-qr-code";
 import { useState } from "react";
-
+ 
 export default function QrCodeGenerator(){
     const [ input, setInput ] = useState('');
     const [ qrCode, setQrCode] = useState('');

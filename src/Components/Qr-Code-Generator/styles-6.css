@@ -4,8 +4,9 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    margin-top: 5rem;
 }
-
+ 
 .Topic{
     text-decoration: underline;
     font-size: 1.2rem;
