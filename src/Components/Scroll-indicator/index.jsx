@@ -65,7 +65,7 @@ export default function ScrollIndicator({ url }) {
   return (
     <div>
       <div className="top-container">
-        <h1>Custom Scroll Indicator</h1>
+        <h5> Master React with these 20 Projects built without any package/library</h5>
         <div className="scroll-progress-tracking-container">
           <div
             className="current-progress-bar"

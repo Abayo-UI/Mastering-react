@@ -23,7 +23,6 @@ export default function QrCodeGenerator(){
 
     return (
         <div class="Qr-code-container"> 
-            <p class="Topic mb-2">Master React with these 20 Projects</p>
             <h4>Qr Code Generator</h4>
             
             <div>
