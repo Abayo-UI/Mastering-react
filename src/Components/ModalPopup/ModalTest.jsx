@@ -7,7 +7,7 @@ const ModalTest = () => {
     const [ showModalPopup, setShowModalPopup] = useState(false);
   return (
     <div className="Modal-test-container">
-        { showModalPopup === false &&<button className="btn btn-dark" onClick={ () => setShowModalPopup(!showModalPopup)}> Open Modal  </button>}
+        { showModalPopup === false &&<button className="btn btn-dark" onClick={ () => setShowModalPopup(!showModalPopup)}> Click to Open Modal  </button>}
         {showModalPopup && <Modal setShowModalPopup={setShowModalPopup}/>}
     </div>
   )

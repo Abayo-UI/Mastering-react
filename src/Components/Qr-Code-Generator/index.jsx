@@ -22,7 +22,7 @@ export default function QrCodeGenerator(){
     }
 
     return (
-        <div class="Qr-code-container"> 
+        <div class="Qr-code-container mt-3"> 
             <h4>Qr Code Generator</h4>
             
             <div>

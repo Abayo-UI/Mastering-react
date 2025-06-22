@@ -1,0 +1,27 @@
+.github-profile-finder-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.3rem;
+}
+
+.user-details{
+   height: 14.5rem;
+   display: flex;
+}
+
+.image-container{
+  border-radius: 50%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.github{
+    cursor: pointer;
+}

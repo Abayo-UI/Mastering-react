@@ -1,4 +1,5 @@
 import Accordion  from "./Components/Accordion";
+import GithubProfileFinder from "./Components/Github-profile-finder";
 import ImageSlider from "./Components/Image-Slider";
 import LightDarkMode from "./Components/Light-dark-mode";
 import LoadMoreButton from "./Components/Load-More-Button";
@@ -14,6 +15,7 @@ import data from "./Components/Tree-view/data";
 function App() {
   return (
     <div>
+      <GithubProfileFinder url={"https://api.github.com/users"}/>
       <QrCodeGenerator/>
       <ModalTest/>
       <LightDarkMode/>
@@ -23,8 +25,10 @@ function App() {
       <Colorgenerator/>
       <LoadMoreButton url="https://dummyjson.com/products"/>
       <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <Tabs/>
+
+
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }
