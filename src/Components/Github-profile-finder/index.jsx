@@ -48,7 +48,7 @@ const GithubProfileFinder = ({url}) => {
         ) : !userDetails.login ? (
           <p>More than one user exists with that username || Try searching with the login name that you use to sign into github since it's unique.</p>
         ) : (
-          <div className="user-details mt-2  pt-1 pb-3 ps-2 col-lg-4 col-10 rounded-4 border border-solid border-dark">
+          <div className="user-details mt-2  pt-1  ps-2 col-lg-4 col-10 rounded-4 border border-solid border-dark">
             <div className="col-lg-4 col-5 h-75 me-2 border border-light border-1 image-container">
               <img className="image" src={userDetails.avatar_url} />
             </div>
