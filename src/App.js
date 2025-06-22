@@ -2,6 +2,7 @@ import Accordion  from "./Components/Accordion";
 import ImageSlider from "./Components/Image-Slider";
 import LightDarkMode from "./Components/Light-dark-mode";
 import LoadMoreButton from "./Components/Load-More-Button";
+import ModalTest from "./Components/ModalPopup/ModalTest";
 import QrCodeGenerator from "./Components/Qr-Code-Generator";
 import Colorgenerator from "./Components/Random-Color-Generator";
 import ScrollIndicator from "./Components/Scroll-indicator";
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <QrCodeGenerator/>
+      <ModalTest/>
       <LightDarkMode/>
       <Accordion/>
       <StarRating/>
