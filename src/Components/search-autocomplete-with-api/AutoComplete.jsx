@@ -31,8 +31,8 @@ const AutoComplete = ({url}) => {
   }
 
   return (
-    <div className="autocomplete-container">
-      <h1>Search AutoComplete Project</h1>
+    <div className="autocomplete-container mt-4">
+      <h5>Search AutoComplete Project</h5>
       <input 
       type="text"
       placeholder="Try a name such as Evelyn"
@@ -42,7 +42,7 @@ const AutoComplete = ({url}) => {
       />
       { names && names.length > 0 && 
         <div>
-          { showDropDown && filteredData.map((item, idx) => {
+          { (showDropDown && inputValue ) && filteredData.map((item, idx) => {
             const search = inputValue.trim();
             if (!search) return <p key={idx}>{item}</p>;
             const lowerItem = item.toLowerCase();
