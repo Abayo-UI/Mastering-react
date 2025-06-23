@@ -15,7 +15,6 @@ function Colorgenerator(){
       const rgb = `rgb(${red}, ${blue}, ${green})`
       
       setBackgroundColor(rgb);
-      console.log(rgb);
     }
 
     function changeToHEX(){

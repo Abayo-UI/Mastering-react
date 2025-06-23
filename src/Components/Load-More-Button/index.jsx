@@ -10,8 +10,6 @@ function LoadMoreButton({url, limit = 20 }){
     try{
        const response = await fetch(`${urllink}?limit=${limit}&skip=${count === 0 ? count : count * limit}`);
        const data = await response.json();
-       console.log(stock);
-       console.log(data.products);
        setStock( count === 0 ? data.products : [...stock,...data.products])
     }
     catch(e){
@@ -21,9 +19,7 @@ function LoadMoreButton({url, limit = 20 }){
 
     function handleClick(){
       
-      setCount(count + 1);
-      console.log(count);
-     
+      setCount(count + 1);     
     }
 
     useEffect(()=> { 

@@ -8,7 +8,7 @@ export default function MenuItem({item}){
 
      function handleClick(){
       setChild(!child);
-      console.log(child);
+    //coonsole.log(child);
      }
 
     return(

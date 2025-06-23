@@ -7,6 +7,7 @@ import ModalTest from "./Components/ModalPopup/ModalTest";
 import QrCodeGenerator from "./Components/Qr-Code-Generator";
 import Colorgenerator from "./Components/Random-Color-Generator";
 import ScrollIndicator from "./Components/Scroll-indicator";
+import AutoComplete from "./Components/search-autocomplete-with-api/AutoComplete";
 import StarRating from "./Components/Star-Rating";
 import Tabs from "./Components/Tabs";
 import Treeview from "./Components/Tree-view";
@@ -26,8 +27,7 @@ function App() {
       <LoadMoreButton url="https://dummyjson.com/products"/>
       <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
       <Tabs/>
-
-
+      <AutoComplete url={"https://dummyjson.com/users"}/>
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );

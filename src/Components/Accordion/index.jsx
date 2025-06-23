@@ -43,11 +43,11 @@ export default function Accordion(){
 
         if( indexOfElement === -1 ){
             copyOfMultiple.push(accordionNumber);
-            console.log(copyOfMultiple);
+            // coonsole.log(copyOfMultiple);
         }
         else{
             copyOfMultiple.splice(indexOfElement,1);
-            console.log(copyOfMultiple);
+            // coonsole.log(copyOfMultiple);
        }
        setMultipleArray(copyOfMultiple);
       }

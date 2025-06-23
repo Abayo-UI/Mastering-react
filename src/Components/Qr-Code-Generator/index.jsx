@@ -12,7 +12,7 @@ export default function QrCodeGenerator(){
     function handleChange(event){
         setInput(event.target.value);
         if( clicks > 0 ) setQrCode(input);
-        console.log(event.target.value);
+        // coonsole.log(event.target.value);
     }
 
     function handleClick(){

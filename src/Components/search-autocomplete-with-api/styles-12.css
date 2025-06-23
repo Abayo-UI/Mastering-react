@@ -1,0 +1,7 @@
+.autocomplete-container{
+    height: 100vh;
+    max-height: 290vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

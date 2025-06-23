@@ -7,7 +7,7 @@ const Tabs = () => {
 
     function handleClick(e){
       const string = e.target.textContent;
-      console.log(e.target.textContent)
+      // coonsole.log(e.target.textContent)
 
       const tabNumber = string.split(' ')[1]
       setTabValue(tabNumber);
