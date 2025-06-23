@@ -21,13 +21,13 @@ function App() {
       <ModalTest/>
       <LightDarkMode/>
       <Accordion/>
+      <AutoComplete url={"https://dummyjson.com/users"}/>
       <StarRating/>
       <Treeview menus={data}/>
       <Colorgenerator/>
       <LoadMoreButton url="https://dummyjson.com/products"/>
       <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
       <Tabs/>
-      <AutoComplete url={"https://dummyjson.com/users"}/>
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
