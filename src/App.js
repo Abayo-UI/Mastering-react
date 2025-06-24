@@ -10,6 +10,7 @@ import ScrollIndicator from "./Components/Scroll-indicator";
 import AutoComplete from "./Components/search-autocomplete-with-api/AutoComplete";
 import StarRating from "./Components/Star-Rating";
 import Tabs from "./Components/Tabs";
+import TicToeGame from "./Components/TicToeGame/TicToeGame";
 import Treeview from "./Components/Tree-view";
 import data from "./Components/Tree-view/data";
  
@@ -17,6 +18,7 @@ function App() {
   return (
     <div>
       <GithubProfileFinder url={"https://api.github.com/users"}/>
+      <TicToeGame/>
       <QrCodeGenerator/>
       <ModalTest/>
       <LightDarkMode/>

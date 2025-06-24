@@ -1,0 +1,63 @@
+.tictoe-container {
+    height: 100vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0c3fc 100%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border-radius: 18px;
+    padding: 2rem 1rem 3rem 1rem;
+}
+
+.tictoe-box {
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #a259f7;
+    border-radius: 1rem;
+    background: #fff;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #a259f7;
+    margin: 0.3rem;
+    box-shadow: 0 2px 8px rgba(162, 89, 247, 0.08);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.tictoe-box:hover {
+    background: #f3e8ff;
+    color: #7c3aed;
+    box-shadow: 0 4px 16px rgba(162, 89, 247, 0.18);
+}
+
+h3.mt-2 {
+    color: #7c3aed;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.restart-button {
+    background: linear-gradient(90deg, #a259f7 0%, #7c3aed 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 2.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.12);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.restart-button:hover {
+    background: linear-gradient(90deg, #7c3aed 0%, #a259f7 100%);
+    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.18);
+}
