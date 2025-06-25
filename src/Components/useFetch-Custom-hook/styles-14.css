@@ -1,0 +1,7 @@
+.custom-fetch-container{
+    height: 100vh;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

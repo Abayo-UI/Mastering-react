@@ -13,6 +13,7 @@ import Tabs from "./Components/Tabs";
 import TicToeGame from "./Components/TicToeGame/TicToeGame";
 import Treeview from "./Components/Tree-view";
 import data from "./Components/Tree-view/data";
+import FetchApiDataWithCustomHook from "./Components/useFetch-Custom-hook/FetchApiDataWithCustomHook";
  
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <LoadMoreButton url="https://dummyjson.com/products"/>
       <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
       <Tabs/>
+      <FetchApiDataWithCustomHook/>
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
