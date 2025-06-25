@@ -23,10 +23,14 @@ function StarRating(){
             <p class="fs-5">This is the <span id="G">G</span><span id="o1">o</span><span id="o2">o</span><span id="g">g</span><span id="l">l</span><span id="e">e</span> Star Rating Feature. Open it in your Laptop to see it capabilities</p> 
             <div>
               { [...Array(5)].map( ( _,key) =>
-              <FaStar class={ selected >= key || clicked >= key ? "FaStarOrange" : "FaStarBlack"}
+              <FaStar 
+              class={ selected >= key || clicked >= key ? "FaStarOrange" : "FaStarBlack"}
               onMouseMove={ () => handleMouseMove(key) }
-              onMouseLeave={ () =>setSelected(-1)}
+              onTouchStart={ () => handleMouseMove(key) }
+              onMouseLeave={ () => setSelected(-1) }
+              onTouchEnd={ () => setSelected(-1) }
               onClick={ () => handleClick(key) }
+              onTouchEndCapture={ () => handleClick(key) }
               /> 
             )}
             </div>
