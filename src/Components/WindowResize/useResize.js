@@ -14,7 +14,7 @@ export default function useWindowResize(){
             height: window.innerHeight
         })
     }
-
+ 
     useLayoutEffect( ()=>{
         resizeScreen();
         window.addEventListener("resize", resizeScreen)

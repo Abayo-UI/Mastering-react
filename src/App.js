@@ -24,19 +24,19 @@ function App() {
       <GithubProfileFinder url={"https://api.github.com/users"}/>
       <TicToeGame/>
       <QrCodeGenerator/>
-      <ModalTest/>
+      <ScrollToTopAndBottom/>
+      <AutoComplete url={"https://dummyjson.com/users"}/>
       <LightDarkMode/>
       <Accordion/>
-      <AutoComplete url={"https://dummyjson.com/users"}/>
+      <ModalTest/>
       <StarRating/>
       <Treeview menus={data}/>
-      <Colorgenerator/>
+      <UseOnclickOutsideTest/>
       <LoadMoreButton url="https://dummyjson.com/products"/>
       <ImageSlider url="https://picsum.photos/v2/list" limit="10" page="3"/>
       <Tabs/>
-      <UseOnclickOutsideTest/>
+      <Colorgenerator/>
       <CustomWindowResize/>
-      <ScrollToTopAndBottom/>
       <FetchApiDataWithCustomHook/>
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>

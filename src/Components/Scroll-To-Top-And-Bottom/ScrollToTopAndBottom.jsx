@@ -18,12 +18,13 @@ const ScrollToTopAndBottom = () => {
     // })
 
     function handleScrollToTheTop(){
+        //window.scrollTo(0, 0) will also work
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         })
     }
-
+   
     function handleScrollToBottom() {
     window.scrollTo(0, document.documentElement.scrollHeight);
   }
